@@ -1,7 +1,5 @@
 1. LINK HASIL DEPLOYMENT
-[ISI DI SINI] -> Contoh: https://nama-project-kamu.vercel.app
-(Ganti baris di atas dengan link hasil deploy website kamu,
-misalnya dari Vercel, Netlify, GitHub Pages, dsb.)
+https://davidard061.github.io/profile/
 
 
 2. TENTANG PROJECT
@@ -22,15 +20,14 @@ menu) di tampilan mobile.
 
 3. CARA MENJALANKAN PROJECT (Tailwind via NPM)
 Karena project ini menggunakan Tailwind CSS lewat NPM, package.json
-dan folder node_modules sudah disertakan, jadi langkah-langkahnya:
+sudah disertakan (folder node_modules tidak disertakan di repository,
+sesuai standar praktik - harus di-install ulang), jadi langkah-langkahnya:
 
 a. Pastikan sudah terinstall Node.js di komputer kamu.
    Cek dengan mengetik di terminal: node -v
 
 b. Buka folder project ini di terminal / VS Code, lalu jalankan:
       npm install
-   (Jika folder node_modules sudah ada, langkah ini boleh dilewati,
-   tapi disarankan tetap dijalankan untuk memastikan dependency lengkap.)
 
 c. Untuk build CSS Tailwind sekali (hasil akhir untuk production):
       npm run build
@@ -49,22 +46,19 @@ ulang "npm run watch" atau "npm run build" supaya output.css ter-update.
 
 
 4. STRUKTUR FOLDER
-portofolio-mahasiswa/
-├── portofolio-mahasiswa
-|   ├──assets/
-│   |  ├── css/
-│   |  │   ├── input.css      (sumber Tailwind)
-│   |  │   ├── output.css     (hasil build, jangan diedit manual)
-│   |  │   └── style.css      (custom CSS tambahan)
-│   |  ├── images/
-│   |  │   └── (foto yang akan diunggah)
-│   |  ├── js/
-│   |  |   └── main.js        (fungsi menu navigasi mobile)
-|   |  └── node_modules/ 
-|   |
-|   ├── index.html
-|   ├── about.html
-|   ├── package-lock.json
-|   ├── package.json
-|   └── projects.html
-└── README.txt 
+profile/
+├── assets/
+│   ├── css/
+│   │   ├── input.css      (sumber Tailwind)
+│   │   ├── output.css     (hasil build, jangan diedit manual)
+│   │   └── style.css      (custom CSS tambahan)
+│   ├── images/
+│   │   └── (foto yang diunggah)
+│   └── js/
+│       └── main.js        (fungsi menu navigasi mobile)
+├── index.html
+├── about.html
+├── projects.html
+├── package.json
+├── package-lock.json
+└── README.txt
