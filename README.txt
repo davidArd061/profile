@@ -1,9 +1,8 @@
-1. LINK HASIL DEPLOYMENT
+1. LINK
 https://davidard061.github.io/profile/
 
-
-2. TENTANG PROJECT
-Project ini adalah website portofolio pribadi mahasiswa yang
+2. PROJECT
+Project ini adalah ebsite portofolio pribadi mahasiswa yang
 dibangun menggunakan HTML dan Tailwind CSS (v4, via NPM),
 terdiri dari 3 halaman:
 - index.html    -> Halaman utama / perkenalan singkat
@@ -12,38 +11,26 @@ terdiri dari 3 halaman:
 
 Styling utama memakai Tailwind CSS yang di-build melalui NPM
 (folder assets/css/input.css -> di-compile menjadi
-assets/css/output.css). Selain itu ada file assets/css/style.css
-untuk custom CSS tambahan (animasi fade-up, smooth scroll, dll),
-dan assets/js/main.js untuk fungsi tombol menu navigasi (hamburger
-menu) di tampilan mobile.
+assets/css/output.css), lalu ada file assets/css/style.css
+untuk custom CSS tambahan (isinya seperti animasi munculnya card pada saat dibuka),
+dan assets/js/main.js untuk fungsi tombol menu navigasi dihp
 
-
-3. CARA MENJALANKAN PROJECT (Tailwind via NPM)
+3. CARA RUN PROJECT (Tailwind via NPM)
 Karena project ini menggunakan Tailwind CSS lewat NPM, package.json
-sudah disertakan (folder node_modules tidak disertakan di repository,
-sesuai standar praktik - harus di-install ulang), jadi langkah-langkahnya:
+sudah disertakan jadi langkah-langkahnya:
 
-a. Pastikan sudah terinstall Node.js di komputer kamu.
-   Cek dengan mengetik di terminal: node -v
+a. Cek dulu kamu sudah instal Node.js
+   Cek dengan ketik di terminal: node -v
 
-b. Buka folder project ini di terminal / VS Code, lalu jalankan:
+b. Buka folder project di terminal/VScode, lalu RUN:
       npm install
 
-c. Untuk build CSS Tailwind sekali (hasil akhir untuk production):
-      npm run build
-
-d. Untuk mode watch (otomatis build ulang setiap ada perubahan class
-   Tailwind saat development):
+c. Untuk mode watch (cctv 24jam, ngepantau setiap ada perubah atau gak)
       npm run watch
 
-e. Buka file index.html langsung di browser, atau gunakan extension
+d. Buka file index.html langsung di browser, atau gunakan extension
    "Live Server" di VS Code (klik kanan index.html -> "Open with
-   Live Server") supaya lebih nyaman saat development.
-
-Catatan: file assets/css/output.css adalah hasil compile Tailwind.
-Jangan diedit manual - edit class Tailwind di file .html, lalu jalankan
-ulang "npm run watch" atau "npm run build" supaya output.css ter-update.
-
+   Live Server")
 
 4. STRUKTUR FOLDER
 profile/
