@@ -43,8 +43,8 @@ profile/
 │   │   └── (foto yang diunggah)
 │   └── js/
 │       └── main.js        (fungsi menu navigasi mobile)
-├── index.html
 ├── about.html
+├── index.html
 ├── package.json
 ├── package-lock.json
 ├── projects.html
