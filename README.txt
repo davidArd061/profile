@@ -45,7 +45,7 @@ profile/
 │       └── main.js        (fungsi menu navigasi mobile)
 ├── index.html
 ├── about.html
-├── projects.html
 ├── package.json
 ├── package-lock.json
+├── projects.html
 └── README.txt
