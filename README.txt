@@ -25,7 +25,7 @@ a. Cek dulu kamu sudah instal Node.js
 b. Buka folder project di terminal/VScode, lalu RUN:
       npm install
 
-c. Untuk mode watch (cctv 24jam, ngepantau setiap ada perubah atau gak)
+c. Untuk mode watch (cctv 24jam, ngepantau setiap ada perubahan)
       npm run watch
 
 d. Buka file index.html langsung di browser, atau gunakan extension
