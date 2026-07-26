@@ -2,8 +2,8 @@
 https://davidard061.github.io/profile/
 
 2. PROJECT
-Project ini adalah ebsite portofolio pribadi mahasiswa yang
-dibangun menggunakan HTML dan Tailwind CSS (v4, via NPM),
+Project ini adalah website profil mahasiswa yang
+dibangun menggunakan HTML dan Tailwind CSS,
 terdiri dari 3 halaman:
 - index.html    -> Halaman utama / perkenalan singkat
 - about.html    -> Halaman "Tentang Saya"
